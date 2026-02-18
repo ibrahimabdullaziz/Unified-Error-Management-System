@@ -5,6 +5,8 @@
 
 The unified error management system consolidates all error handling logic into a single, scalable module. This system provides a **Single Source of Truth** for error handling across the entire application, supporting both React lifecycle errors and uncaught Promise/Network errors.
 
+This error management system is used by the V-Sync project. See the V-Sync repository: https://github.com/ibrahimabdullaziz/remote-interview-platform
+
 ---
 
 ## Architecture
