@@ -1,4 +1,3 @@
-````
 # Unified Error Management System
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -15,17 +14,14 @@ A consolidated, high-resilience error handling module for modern React applicati
 
 The system is modularized to ensure that logic, types, and UI components remain decoupled yet highly cohesive.
 
-```
 src/lib/errors/
-├── index.ts          # Central entry point (Barrel Export)
-├── types.ts          # TypeScript interfaces & Error schemas
-├── registry.ts       # Error code definitions & UI mapping
-├── handler.ts        # The "Engine": Global listeners & processing logic
-├── hooks.ts          # React integration (useErrorHandler, useErrorReset)
+├── index.ts # Central entry point (Barrel Export)
+├── types.ts # TypeScript interfaces & Error schemas
+├── registry.ts # Error code definitions & UI mapping
+├── handler.ts # The "Engine": Global listeners & processing logic
+├── hooks.ts # React integration (useErrorHandler, useErrorReset)
 ├── ErrorBoundary.tsx # Catch-all component for React render errors
-└── ErrorDisplay.tsx  # Presentation layer for various error states
-```
-````
+└── ErrorDisplay.tsx # Presentation layer for various error states
 
 ### Key Capabilities
 
