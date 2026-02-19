@@ -14,7 +14,7 @@ A consolidated, high-resilience error handling module for modern React applicati
 
 The system is modularized to ensure that logic, types, and UI components remain decoupled yet highly cohesive.
 
-src/lib/errors/
+```src/lib/errors/
 ├── index.ts # Central entry point (Barrel Export)
 ├── types.ts # TypeScript interfaces & Error schemas
 ├── registry.ts # Error code definitions & UI mapping
@@ -22,6 +22,7 @@ src/lib/errors/
 ├── hooks.ts # React integration (useErrorHandler, useErrorReset)
 ├── ErrorBoundary.tsx # Catch-all component for React render errors
 └── ErrorDisplay.tsx # Presentation layer for various error states
+```
 
 ### Key Capabilities
 
